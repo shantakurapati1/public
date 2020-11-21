@@ -1,0 +1,10 @@
+# Status that removes then adds that restores former contents
+# Should "unremove" the file wo staging
+I setup2.in
+> rm f.txt
+<<<
+* f.txt
++ f.txt wug.txt
+> add f.txt
+<<<
+I blank-status.in

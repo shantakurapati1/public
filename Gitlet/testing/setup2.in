@@ -1,0 +1,4 @@
+# Sets up 1 commit with 2 files
+I setup1.in
+> commit "Two files"
+<<<
